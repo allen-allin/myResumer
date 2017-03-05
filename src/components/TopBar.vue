@@ -1,9 +1,9 @@
 <template>
 	<div id="topbar">
-		Resume
+	
 		<div class="wrapper">
 			<span class="logo">
-				RESUME
+				在线简历编辑
 			</span>
 			<div class="actions">
 				<button class="primary">保存</button>
