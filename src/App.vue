@@ -19,12 +19,12 @@ import TopBar from './components/TopBar'
 import ResumeEditor from './components/ResumeEditor'
 import ResumePreview from './components/ResumePreview'
 import icons from './assets/icons.js'
-import store from './store/index'
+// import store from './store/index'
 
 
 export default {
 	name: 'app',
-	store,
+	// store,
 	components: {
 		TopBar,ResumePreview,ResumeEditor
 	},

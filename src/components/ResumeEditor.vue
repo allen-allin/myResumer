@@ -10,7 +10,7 @@
 			</ol>
 		</nav>
 		<ol class="panels">
-			<li v-for="(item,index) in resume.config" v-show="selected === item.field" :index="index">
+			<li v-for="(item,index) in resume.config" v-show="selected === item.field">
 				<div v-if="resume[item.field] instanceof Array">
 					<div class="subitem" v-for="subitem in resume[item.field]">
 						<div class="resumeFiled" v-for="(value,key) in subitem">
